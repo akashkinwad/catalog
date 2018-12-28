@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+References:
+
+* https://www.agiratech.com/active-storage-in-rails-5-2/
+
+* https://sipsandbits.com/2018/04/24/activestorage-in-rails-5-2/
