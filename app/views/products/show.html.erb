@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @product.title %>
+  <%= image_tag @product.picture.variant(resize: "100x100") %>
+
+</p>
+
+<%= link_to 'Download', @product.picture, download: @product.picture %>
+<%= link_to 'Remove', rails_blob_path(@product.picture), method: :delete, data: { confirm: 'Are you sure?' }%>
+<%= link_to 'Edit', edit_product_path(@product) %>
+<%= link_to 'Back', products_path %>
